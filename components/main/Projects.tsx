@@ -9,7 +9,7 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/Project_1.PNG"
+          src="/Project_1.png"
           title="Memories"
           description="
 Memories propose des cartes souvenirs interactives avec authentification, commentaires, likes et recommandations. Alimenté par MongoDB, il permet le filtrage par tags et recherche, offrant une expérience utilisateur personnalisée et engageante."
