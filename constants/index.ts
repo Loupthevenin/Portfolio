@@ -81,7 +81,13 @@ export const Skill_data = [
 
 export const Socials = [
   {
+    name: "Github",
+    link: "https://github.com/Loupthevenin",
+    src: "/pngkey.com-github-icon-png-1787508.png",
+  },
+  {
     name: "Instagram",
+    link: "https://www.instagram.com/loup_thevenin/",
     src: "/instagram.svg",
   },
 ];
