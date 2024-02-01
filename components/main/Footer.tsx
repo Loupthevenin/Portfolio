@@ -8,24 +8,32 @@ const Footer = () => {
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Community</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <a
+              href="https://github.com/Loupthevenin"
+              className="flex flex-row items-center my-[15px] cursor-pointer z-[30]"
+              target="_blank"
+            >
               <RxGithubLogo />
               <span className="text-[15px] ml-[6px]">Github</span>
-            </p>
+            </a>
           </div>
 
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Social Media</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <a
+              href="https://www.instagram.com/loup_thevenin/"
+              className="flex flex-row items-center my-[15px] cursor-pointer z-[30]"
+              target="_blank"
+            >
               <RxInstagramLogo />
               <span className="text-[15px] ml-[6px]">Instagram</span>
-            </p>
+            </a>
           </div>
 
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">À Propos</div>
 
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <p className="flex flex-row items-center my-[15px] cursor-pointer z-[30]">
               <span className="text-[15px] ml-[6px]">
                 loup.thevenin.1@gmail.com
               </span>
