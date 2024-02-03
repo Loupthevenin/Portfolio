@@ -239,3 +239,12 @@ export const Full_stack = [
     height: 50,
   },
 ];
+
+export const Other_skill = [
+  {
+    skill_name: "Python",
+    Image: "/Python.svg.png",
+    width: 70,
+    height: 70,
+  },
+];
